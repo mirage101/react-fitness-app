@@ -25,6 +25,12 @@ const Navbar = () => {
           <a href="#exercises" style={{ textDecoration: "none", color: "#3a1212" }}>
             Exercises
           </a>
+          <Link to="/workout-plan" style={{ textDecoration: "none", color: "#3a1212" }}>
+            Workout Plan
+          </Link>
+          <Link to="/fitness-calculator" style={{ textDecoration: "none", color: "#3a1212" }}>
+            Fitness Calculator
+          </Link>
         </Stack>
       </Stack>
     </div>

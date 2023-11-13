@@ -13,6 +13,14 @@ export const youtubeOptions = {
   },
 };
 
+export const fitnessCalcOptions = {
+  method: "GET", 
+  headers: {
+    'X-RapidAPI-Key': '1b6e07c6e9msh2fa491c3ed9d522p128df7jsnb61ce24236d8',
+    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
+  }
+};
+
 export const fetchData = async (url, options) => {
   const response = await fetch(url, options);
   const data = await response.json();
